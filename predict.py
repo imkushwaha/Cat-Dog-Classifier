@@ -17,7 +17,7 @@ class dogcat:
 
     def predictiondogcat(self):
         # load model
-        model = load_model('model.h5')
+        model = load_model('cats_and_dogs_small_2.h5')
 
         # summarize model
         #model.summary()
